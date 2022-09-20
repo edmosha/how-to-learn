@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./styles/normalize.css" rel="stylesheet">
   <link href="./styles/style.css" rel="stylesheet">
   <title>Научиться учиться</title>
 </head>
@@ -13,7 +14,7 @@
     <h3 class="header__subtitle">
       Какие современные и эффективные подходы
       к обучению вы можете использовать в своей жизни?
-      <a href="#" class="header__link">Узнать →</a>
+      <a href="#" class="header__link">Узнать &rarr;</a>
     </h3>
     <img src="./images/header-image.png" alt="изображение, картина 'опять двойка'" class="main-illustration" >
     <div class="header__square-pic"></div>
@@ -105,13 +106,13 @@
     <section class="flex-column feynman">
       <h2 class="feynman__title">Метод Фейнмана</h2>
       <h3 class="feynman__subtitle">Выучить и не забыть.</h3>
-      <a href="#" class="feynman__link">Подробнее →</a>
+      <a href="#" class="feynman__link">Подробнее &rarr;</a>
       <img src="./images/feynman.png" alt="Фотография, Ричард Фенйман" class="feynman__illustration">
     </section>
     <section class="flex-column kaufman section_theme_dark">
       <h2 class="section-title">Принципы обучения</h2>
       <h3 class="section-subtitle">от Джоша Кауфмана</h3>
-      <img src="../images/kaufman-triangle.svg" alt="Фоновая фигура - треугольник" class="kaufman-illustration">
+      <img src="../images/kaufman-triangle.svg" alt="Фоновая фигура - треугольник" class="kaufman__triangle-pic">
       <ul class="flex-row table list">
 
         <li class="table__cell table__cell_theme_dark">
@@ -164,9 +165,36 @@
           <p class="table__text">Уделяйте внимание количеству и скорости.</p>
         </li>
 
-
+      </ul>
     </section>
-
   </main>
+  <footer class="flex-row footer">
+    <div class="flex-row footer__columns">
+
+      <div class="flex-column footer__column_content_copyright">
+        <div class="logo logo_place_footer"></div>
+        <p class="footer__author">&copy; Fedorova Darya</p>
+      </div>
+
+      <div class="flex-column footer__column_content_info">
+        <h4 class="footer__column-heading">О Практикуме</h4>
+        <div class="flex-column footer__column-links">
+          <a href="#" class="footer__column-link">Главная</a>
+          <a href="#" class="footer__column-link">Концепция</a>
+          <a href="#" class="footer__column-link">Наставники</a>
+        </div>
+      </div>
+
+      <div class="flex-column footer__column_content_social">
+        <h4 class="footer__column-heading">Соцсети</h4>
+        <div class="flex-column footer__social-icon">
+          <a href="#" class="footer__column-link footer__column-link_icon_facebook">Facebook</a>
+          <a href="#" class="footer__column-link footer__column-link_icon_vk">ВКонтакте</a>
+          <a href="#" class="footer__column-link footer__column-link_icon_instagram">Instagram</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
 </body>
 </html>
