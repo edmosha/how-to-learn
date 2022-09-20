@@ -115,7 +115,7 @@
 }
 
 .two-columns__main-text {
- width: 80%;
+ max-width: 80%;
  min-width: 784px;
  font-size: 24px;
  line-height: 34px;
@@ -202,7 +202,7 @@
 
 .feynman {
   position: relative;
-  height: 890px;
+  min-height: 890px;
   margin-top: 100px;
   align-items: center;
   background-color: #f2f2f2;
@@ -282,7 +282,7 @@
 /* -- FOOTER -- */
 
 .footer {
-  min-width: 350px;
+  min-height: 350px;
   padding: 60px 0 40px 0;
   justify-content: center;
   background-color: #1f1f1f;
@@ -323,7 +323,6 @@
 
 .footer__social-icon {
   margin: 20px 0 16px 0;
-  /* padding-left: 26px; */
 }
 
 .footer__column-link {
