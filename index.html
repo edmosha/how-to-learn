@@ -8,25 +8,25 @@
   <title>Научиться учиться</title>
 </head>
 <body class="page">
-  <header class="header flex-row">
+  <header class="header">
     <div class="logo logo_place_header"></div>
     <h1 class="header__title">Научиться учиться</h1>
-    <h3 class="header__subtitle">
+    <p class="header__subtitle">
       Какие современные и эффективные подходы
       к обучению вы можете использовать в своей жизни?
       <a href="#" class="header__link">Узнать &rarr;</a>
-    </h3>
-    <img src="./images/header-image.png" alt="фрагмент из картины 'опять двойка', где мальчик грустит из-за оценки." class="main-illustration" >
+    </p>
+    <img src="./images/header-image.png" alt="фрагмент из картины 'опять двойка', где мальчик грустит из-за оценки." class="header__main-illustration" >
     <div class="header__square-pic"></div>
   </header>
 
   <main class="content">
-    <section class="description flex-row content__info-block">
-      <div class="flex-row two-columns">
-        <h3 class="two-columns__brief">
+    <section class="description content__info-block">
+      <article class="two-columns">
+        <h2 class="two-columns__brief">
           Главные проблемы в обучении
-        </h3>
-        <div class="flex-column two-columns__main-text">
+        </h2>
+        <div class="two-columns__main-text">
           <p class="two-columns__paragraph">
             Ни в школе, ни в институте нас не учат тому, как правильно
             изучать материал. Мы готовимся к экзаменам и учим билеты.
@@ -44,14 +44,14 @@
             Эти же техники применяются на примере обучения в Практикуме.
           </p>
         </div>
-      </div>
+      </article>
     </section>
-    <section class="flex-column digits section_theme_light">
+    <section class="digits">
       <h2 class="section-title">Цифры и факты</h2>
-      <h3 class="section-subtitle">Про учёбу и мозг</h3>
-      <ul class="flex-row table list">
+      <p class="section-subtitle">Про учёбу и мозг</p>
+      <ul class="table list">
 
-        <li class="table__cell table__cell_theme_light">
+        <li class="table__cell">
           <h4 class="table__heading">86 миллиардов</h4>
           <p class="table__text">Число нейронов в мозге человека</p>
         </li>
@@ -96,24 +96,24 @@
           <p class="table__text">Открытие кривой забывания</p>
         </li>
 
-        <li class="flex-column table__cell  ">
+        <li class="table__cell  ">
           <h4 class="table__heading">1889 год</h4>
           <p class="table__text">Открытие условного рефлекса</p>
         </li>
 
       </ul>
     </section>
-    <section class="flex-column feynman">
+    <section class="feynman">
       <h2 class="feynman__title">Метод Фейнмана</h2>
-      <h3 class="feynman__subtitle">Выучить и не забыть.</h3>
+      <p class="feynman__subtitle">Выучить и не забыть.</p>
       <a href="#" class="feynman__link">Подробнее &rarr;</a>
       <img src="./images/feynman.png" alt="черно-белый портрет по плечи улыбающегося Ричарда Фейнмана." class="feynman__illustration">
     </section>
-    <section class="flex-column kaufman section_theme_dark">
-      <h2 class="section-title">Принципы обучения</h2>
-      <h3 class="section-subtitle">от Джоша Кауфмана</h3>
-      <img src="../images/kaufman-triangle.svg" alt="" class="kaufman__triangle-pic">
-      <ul class="flex-row table list">
+    <section class="kaufman">
+      <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
+      <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
+      <div class="kaufman__triangle"></div>
+      <ul class="table list">
 
         <li class="table__cell table__cell_theme_dark">
           <h4 class="table__heading">1</h4>
@@ -168,26 +168,26 @@
       </ul>
     </section>
   </main>
-  <footer class="flex-row footer">
-    <div class="flex-row footer__columns">
+  <footer class="footer">
+    <div class="footer__columns">
 
-      <div class="flex-column footer__column_content_copyright">
+      <div class="footer__column footer__column_content_copyright">
         <div class="logo logo_place_footer"></div>
         <p class="footer__author">&copy; Fedorova Darya</p>
       </div>
 
-      <div class="flex-column footer__column_content_info">
+      <div class="footer__column footer__column_content_info">
         <h4 class="footer__column-heading">О Практикуме</h4>
-        <div class="flex-column footer__column-links">
+        <nav class="footer__column-links">
           <a href="#" class="footer__column-link">Главная</a>
           <a href="#" class="footer__column-link">Концепция</a>
           <a href="#" class="footer__column-link">Наставники</a>
-        </div>
+        </nav>
       </div>
 
-      <div class="flex-column footer__column_content_social">
+      <div class="footer__column footer__column_content_social">
         <h4 class="footer__column-heading">Соцсети</h4>
-        <div class="flex-column footer__social-icon">
+        <div class="footer__column-links">
           <a href="#" class="footer__column-link footer__column-link_icon_facebook">Facebook</a>
           <a href="#" class="footer__column-link footer__column-link_icon_vk">ВКонтакте</a>
           <a href="#" class="footer__column-link footer__column-link_icon_instagram">Instagram</a>
