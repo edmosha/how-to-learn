@@ -40,14 +40,37 @@
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
 @import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 
+/* section */
+
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-subtitle/section-subtitle.css);
+
+@import url(../blocks/section-title/_theme/section-title_theme_dark.css);
+@import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
+
 /* techniques */
 
+@import url(../blocks/techniques/techniques.css);
+
+/* cards */
+
+@import url(../blocks/cards/cards.css);
+
+@import url(../blocks/cards/__description/cards__description.css);
+@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__title/cards__title.css);
 
 /* video */
 
+@import url(../blocks/video/video.css);
+
+@import url(../blocks/video/__iframe/video__iframe.css);
+@import url(../blocks/video/__iframes/video__iframes.css);
 
 /* oakley */
 
+@import url(../blocks/oakley/oakley.css);
 
 /* feynman */
 
@@ -62,14 +85,6 @@
 
 @import url(../blocks/digits/digits.css);
 
-/* section */
-
-@import url(../blocks/section-title/section-title.css);
-@import url(../blocks/section-subtitle/section-subtitle.css);
-
-@import url(../blocks/section-title/_theme/section-title_theme_dark.css);
-@import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
-
 /* table */
 
 @import url(../blocks/table/table.css);
@@ -82,6 +97,18 @@
 
 /* khan */
 
+@import url(../blocks/khan/khan.css);
+
+@import url(../blocks/khan/__author/khan__author.css);
+@import url(../blocks/khan/__book-conteiner/khan__book-conteiner.css);
+@import url(../blocks/khan/__book-pic/khan__book-pic.css);
+@import url(../blocks/khan/__buy-link/khan__buy-link.css);
+@import url(../blocks/khan/__conteiner/khan__conteiner.css);
+@import url(../blocks/khan/__quote-author-subline/khan__quote-author-subline.css);
+@import url(../blocks/khan/__quote-author/khan__quote-author.css);
+@import url(../blocks/khan/__quote-text/khan__quote-text.css);
+@import url(../blocks/khan/__quote/khan__quote.css);
+@import url(../blocks/khan/__title/khan__title.css);
 
 /* kaufman */
 
@@ -91,6 +118,11 @@
 
 /* resources */
 
+@import url(../blocks/resources/resources.css);
+
+@import url(../blocks/resources/__link/resources__link.css);
+@import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
+@import url(../blocks/resources/__logo/resources__logo.css);
 
 /* footer */
 
