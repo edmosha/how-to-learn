@@ -97,6 +97,18 @@
 
 /* khan */
 
+@import url(../blocks/khan/khan.css);
+
+@import url(../blocks/khan/__author/khan__author.css);
+@import url(../blocks/khan/__book-conteiner/khan__book-conteiner.css);
+@import url(../blocks/khan/__book-pic/khan__book-pic.css);
+@import url(../blocks/khan/__buy-link/khan__buy-link.css);
+@import url(../blocks/khan/__conteiner/khan__conteiner.css);
+@import url(../blocks/khan/__quote-author-subline/khan__quote-author-subline.css);
+@import url(../blocks/khan/__quote-author/khan__quote-author.css);
+@import url(../blocks/khan/__quote-text/khan__quote-text.css);
+@import url(../blocks/khan/__quote/khan__quote.css);
+@import url(../blocks/khan/__title/khan__title.css);
 
 /* kaufman */
 
@@ -106,6 +118,11 @@
 
 /* resources */
 
+@import url(../blocks/resources/resources.css);
+
+@import url(../blocks/resources/__link/resources__link.css);
+@import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
+@import url(../blocks/resources/__logo/resources__logo.css);
 
 /* footer */
 
